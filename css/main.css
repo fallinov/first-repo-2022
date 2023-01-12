@@ -1,8 +1,27 @@
 body {
     background: black;
     color: white;
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
 }
 
-h1 {
+
+h1, h2 {
     color: yellow;
+    font-weight: 100;
+}
+
+.carre1 {
+    background-color: red;
+    padding: 20px;
+}
+
+.carre2 {
+    background-color: green;
+    background-image: url("../icons/android-chrome-512x512.png");
+    background-position: center center;
+    padding: 10px;
+    margin: 15px;
+    border: 4px solid black;
+    width: 400px;
 }
